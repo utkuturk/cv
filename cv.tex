@@ -12,12 +12,12 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[11.5pt, a4paper]{article}
+\documentclass[10t, a4paper]{article}
 \usepackage{fontspec}
-
+\usepackage{multicol}
 % DOCUMENT LAYOUT
 \usepackage{geometry}
-\geometry{a4paper, textwidth=5.5in, textheight=9in, marginparsep=5pt, marginparwidth=.6in}
+\geometry{a4paper, textwidth=5.5in, textheight=10in, marginparsep=5pt, marginparwidth=.6in}
 \setlength\parindent{0in}
 
 % FONTS
@@ -68,7 +68,7 @@ bookmarks, colorlinks, breaklinks,
 	pdfauthor={Utku Turk},
 	pdfproducer={http://nitens.org/taraborelli/cvtex}
 ]{hyperref}
-\hypersetup{linkcolor=black,citecolor=black,filecolor=black,urlcolor=black}
+\hypersetup{linkcolor=Maroon,citecolor=black,filecolor=black,urlcolor=Maroon}
 
 %SYMBOLS
 \usepackage[misc]{ifsym}
@@ -81,33 +81,33 @@ bookmarks, colorlinks, breaklinks,
 
 % DOCUMENT
 \begin{document}
-{\Huge Utku Türk}\\[1cm]
-Boğaziçi Unv. JF Building \# 314 Be\c{s}ikta\c{s}, \.{I}stanbul 34342 \\ 
-Turkey \\[.2cm]
+{\Huge Utku Türk}\\[.2cm]
+Boğaziçi Unv. JF Building \# 314 \\ 
+Be\c{s}ikta\c{s}, \.{I}stanbul 34342, Turkey \\[.2cm]
 \Letter{ utku.turk@boun.edu.tr} \\
-\Mundus~\url{ http://utkuturk.com} \\
+\Mundus~\url{ www.utkuturk.com} \\
 \faGithub \thinspace \href{https://github.com/utkuturk}{\thinspace utkuturk}
 \faTwitter \href{link}{\thinspace theutkuturk} \\
 
 %%\hrule
-\section*{\faLightbulbO \thinspace Areas of interest}
+\section*{\faLightbulbO \thinspace Areas of Interest}
 
-\years{Broad} Formal Semantics, Psycholinguistics, Nanosyntax \\
-\years{Narrow} Conditionals, Adjectival Morphology, Case Theory, Memory Retrieval in Sentence Processing \\
+\years{Broad} Psycholinguistics, Formal Semantics, Nanosyntax \\
+\years{Narrow} Agreement Attraction, Adjectival Morphology, Conditionals, Case Theory, Memory Retrieval in Sentence Processing 
 
 %\hrule
 \section*{\faGraduationCap \thinspace Education}
 
 \subsection*{Degree seeking programs}
-\noinden
+\noindent
 
-\years{2017-Present}\textbf{M.A in Linguistics}, Boğaziçi University  \\
-
-\years{2012-2017}\textbf{B.A in Translation Studies}, Boğaziçi University  \\
+\years{2017-Present}\textbf{MA in Linguistics}, Boğaziçi University  \\
+\years{2012-2017}\textbf{BA in Translation Studies}, Boğaziçi University  
 
  %\hrule
  \subsection*{Non-degree studies}
  \noindent
+ \years{2020 Spring}Visiting student in Linguistics PhD program at Masaryk University, Brno. \\
  \years{2019 Summer}DGfs Summer School - XPrag.de: New Pragmatic Theories based on Experimental Evidence \\
  \years{2015-2016}Exchange student in UCLA, the Department of Linguistics
 
@@ -115,44 +115,39 @@ Turkey \\[.2cm]
 \section*{\faBriefcase \thinspace Work Experience}
 
 \years{2018-Present}Graduate Research Assistant in the Department of Linguistics, \textsc{Boğaziçi University} \\
-  • write up administrative stuff \\
-  • write about taing \\
-  • write about helping for research and foreign faculty members in their stuff with turkey \\
+  • Prepared weekly worksheets, PS sessions, and assignments for classes I TA.\\
+  • Assisted the administrative processes in the department.
   
-\years{2018 Summer}Turkish Language Instructor in the Turkish Language and Culture Program, \textsc{Boğaziçi University}\\
-  • write up administrative stuff \\
-
-
+\years{2018, 2019\\ Summer}Turkish Language T.A. in the Turkish Language and Culture Program, \textsc{Boğaziçi University}\\
+  • Prepared weekly material and worksheets for Advanced and Upper-Intermediate Turkish Learners
 
 %\hrule
-\section*{\faUniversity \thinspace Research experiences}
+\section*{\faUniversity \thinspace Research Experience}
 
-\years{2015-2017}Research Assistant in A Very Nice Lab, \textsc{University of Blah} \\
-  • PI: Dr Blah Blah \\
-  • Projects: Blah Blah Blah \\
-
+\years{2015-2017}Research Assistant in Text Analytics and BioInformatics Lab, [\href{http://tabilab.cmpe.boun.edu.tr}{TABILAB}]. \textsc{Boğaziçi University} \\
+  • Projects: Deep Learning Based Turkish Dependency Parsing, Annotation of Turkish Treebanks, Creating a Web-Based Treebank Annotator 
 
 %\hrule
-\section*{\faBook \thinspace Publications}
+% \section*{\faBook \thinspace Publications}
 
-\subsection*{Book chapters}
-\noindent
-\years{2017}\textbf{Name.} Title. Book.
+% \subsection*{Book chapters}
+% \noindent
+% \years{2017}\textbf{Name.} Title. Book.
 
-\subsection*{Articles}
-\noindent
-\years{2017}\textbf{Name.} Title. Jounral. \\
+% \subsection*{Articles}
+% \noindent
+% \years{2017}\textbf{Name.} Title. Jounral. \\
 
 %\hrule
-\section*{\faEdit \thinspace Manuscripts}
+% \section*{\faEdit \thinspace Manuscripts}
 
-\subsection*{Work in progress}
-\noindent
-\years{2017}\textbf{Name.} Title.
+% \subsection*{Work in progress}
+% \noindent
+% \years{2017}\textbf{Name.} Title.
 
-\subsection*{Thesis \& Research papers}
-\noindent
-\years{2017}\textbf{Name.} Title. \\
+% \subsection*{Thesis \& Research papers}
+% \noindent
+% \years{2017}\textbf{Name.} Title. \\
 
 
 %\hrule
@@ -160,68 +155,98 @@ Turkey \\[.2cm]
 
 \subsection*{Oral presentations}
 \noindent
-\years{2017}\textbf{Name.} Title. Presentation given at Blah Conference, Date \& Year, Univeristy of Blah, Country.
+
+\years{2019}\textbf{Türk, U.} Decomposing Turkish Augmentatives. Presented at \textit{16$^{th}$Workshop on Syntax, Semantics, and Phonology}, June 17-18 2019, Universidad Complutense de Madrid, Spain.
+
+\years{}\textbf{Türk, U.}, Atmaca, F., \"{O}zate\c{s}, \c{S}.B., \"{O}zt\"{u}rk, B., G\"{u}ng\"{o}r, T., \"{O}zg\"{u}r, A. Improving the Annotations in the Turkish Universal Dependency Treebank. Presented \textit{33. Ulusal Dilbilim Kurultayı (33$^{th}$ National Linguistics Conference)} in Turkish, May 9-10 2019, Mersin University, Turkey.
+
+\years{}\textbf{Türk, U.} Nanosyntax of Turkish Augmentatives. Presentation accepted to \textit{33. Ulusal Dilbilim Kurultayı (33$^{th}$ National Linguistics Conference)}, May 9-10 2019, Mersin University, Turkey.
+
+% \years{2019}\textbf{Türk, U.} Is Accusative Case Really the Case? Presentation given at \textit{Boğaziçi University Student Conference on Theoretical and Experimental Linguistics}, February 9-10 \& 2019, Boğaziçi University, Turkey.
 
 \subsection*{Conference posters}
 \noindent
-\years{2017}\textbf{Name.} Title. Poster presented at Blah Conference, Date \& Year, Place, Country.
+
+\years{2019}\textbf{Türk, U.} Atmaca, F., \"{O}zate\c{s}, \c{S}.B., Köksal, A., \"{O}zt\"{u}rk, B., G\"{u}ng\"{o}r, T., \"{O}zg\"{u}r, A. Turkish Treebanking: Unifying and Constructing Efforts. Poster presented at  \textit{LAW XIII 2019: The 13$^{th}$ Linguistic Annotation Workshop}, August 1 2019, Florence, Italy.
+
+\years{}\textbf{Türk, U.} Nanosyntax of Turkish Augmentatives. Poster presented at  \textit{4$^{th}$ American International Morphology Meeting}, May 3-5 2019, Stony Brook University, USA.
 
 
-\subsection*{Public talks}
-\noindent
-\years{2017}\textbf{Name.} Title. Talk given at Blah Event, Date \& Year, Organizer, Country. \\
-
-
-%\hrule
-\section*{\faTrophy \thinspace Honors, awards \& scholarships}
-
-\years{2016-2017}Blah Scholarship, University of Blah \\
+% \subsection*{Public talks}
+% \noindent
+% \years{2017}\textbf{Name.} Title. Talk given at Blah Event, Date \& Year, Organizer, Country. 
 
 
 %\hrule
-\section*{\faMoney \thinspace Fundings \& grants}
+%\section*{\faTrophy \thinspace Honors, awards \& scholarships}
 
-\subsection*{Internal \& External fundings}
-\noindent
-\years{2016-2017}Departmental Funding
-
-\subsection*{Travel grants}
-\noindent
-\years{2015-2017}Faculty Travel Grant, University of Blah \\
+%\years{2016-2017}Blah Scholarship, University of Blah \\
 
 
 %\hrule
-\section*{\faCalendarCheckO \thinspace Professional services}
+\section*{\faMoney \thinspace Fundings \& Grants}
 
-\subsection*{Reviewing}
+%\subsection*{Internal \& External fundings}
+%\noindent
+%\years{2016-2017}Departmental Funding
 \noindent
-\years{2017-}\emph{Journal}.
+\years{2019 Summer}Travel Grant for DGfs Summer School - XPrag.de  \\
+\years{2019 Spring}Faculty of Arts and Sciences Conference Travel Grant, Boğaziçi University\\
+\years{2012-2017}Merit-based Government Funding for Higher Education, only given to top 100 students.
+
+
+%\hrule
+\section*{\faCalendarCheckO \thinspace Professional Services}
+
+\subsection*{Teaching Assistant}
+\noindent
+\years{2018-}\emph{The Department of Linguistics, Boğaziçi University}. List of Classes: \\
+\years{{\ }{\ }Spring 2019}\textsc{Ling101}: Introduction to Language and Linguistics I, Elena Guerzoni (75 students) \mbox{[\href{https://registration.boun.edu.tr/scripts/instructor/coursedescriptions/2018-2019-2/LING10101.PDF}{syllabus}]}\\
+\years{}\textsc{Ling314}: Syntax \& Semantics of Modern Turkish, Balkız Öztürk (75 students)  \mbox{[\href{http://registration.boun.edu.tr/scripts/instructor/coursedescriptions/2018-2019-2/LING31401.DOCX}{syllabus}]}\\
+\years{{\ }{\ }Fall 2018}\textsc{Ling313}: Phonology \& Morphology of Modern Turkish, Kadir Gökgöz (65 students) [\href{https://registration.boun.edu.tr/scripts/instructor/coursedescriptions/2018-2019-1/LING31301.PDF}{syllabus}]\\
+\years{{\ }{\ }Spring 2018}\textsc{Ling101}: Introduction to Language and Linguistics I, Pavel Logačev (110 students) \mbox{[\href{https://registration.boun.edu.tr/scripts/instructor/coursedescriptions/2017-2018-2/LING10102.PDF}{syllabus}]}\\
+\years{}\textsc{Ling102}: Introduction to Language and Linguistics II, Mine Nakipoğlu (70 students) [\href{https://registration.boun.edu.tr/scripts/instructor/coursedescriptions/2017-2018-2/LING10201.PDF}{syllabus}]\\
+\years{2018-}\emph{Turkish Language and Culture Program, Boğaziçi University}\\
+\years{{\ }{\ }2019 Summer}\textsc{S25}: Upper Intermediate Turkish Classes [\href{}{syllabus}]\\
+\years{{\ }{\ }2018 Summer}\textsc{S30}: Advanced Turkish Classes [\href{}{syllabus}]
 
 \subsection*{Organizing}
 \noindent
-\years{2016-2017}Organizer, \emph{Event}. Department of Blah, University of Blah \\
+\years{2019}Organizer Assistant, \emph{LingDay 2019}. Department of Linguistics, Boğaziçi University \mbox{[\href{https://linguistics.boun.edu.tr/tr/lingday-2019-may-28}{announcement}]}\\
+\years{2017-Present}Organizer, \emph{\textsc{Busctel}: Boğaziçi University Student Conference in Theoretical and Experimental Linguistics}. Department of Linguistics, Boğaziçi University [\href{https://busctel18.weebly.com/}{‘18}][\href{https://busctel19.weebly.com}{‘19}]
 
-\subsection*{Outreach}
+%\subsection*{Outreach}
+%\noindent
+%\years{2017 Spring}Linguistic Consultant for \emph{Event}, Organizer \\
+
+\subsection*{Proofread \& Translation}
 \noindent
-\years{2017 Spring}Linguistic Consultant for \emph{Event}, Organizer \\
-
-
+\years{2017-2018}\emph{Turkish Proofreader} in ProTranslate.net\\
+\years{2018 Summer}\emph{Translator} in IKSV \nth{4} Istanbul Design Biennial [\href{http://aschoolofschools.iksv.org/en/}{website}]\\
+\years{2017 Summer}\emph{Translator} in IKSV \nth{15} Istanbul Biennial: a good neighbour [\href{http://15b.iksv.org/home}{website}][\href{http://15b.iksv.org/publications}{output}]\\
+\years{2016}\emph{Consecutive Interpreter}, U.S. Consulate General Istanbul \& ILIPG
 %\hrule
-\section*{\faUsers \thinspace Membership}
-
-\years{2017-}Linguistic Society of Blah \\
-
-
+%\section*{\faUsers \thinspace Membership}
+%\years{2017-}Linguistic Society of Blah \\
 %\hrule
+
+\section*{\faUsers \thinspace Volunteer}
+\years{2016-Present}\emph{Helping Student}, GETEM, Boğaziçi University \\
+\years{2014-2015}\emph{Note-taker}, ClockWork program, UCLA Center for Accessible Education
+
+
 \section*{\faWrench \thinspace Skills}
-
+\begin{multicols}{2}
 \subsection*{Languages}
-English: full professional proficiency \\
-Spanish and German: elementary level
+Turkish: Native\\
+English \& Spanish: Full professional proficiency \\
+\nth{1} \& \nth{2} Order Logic: Fluent
 
 \subsection*{Computing}
-Programming \& Statistics: R, SPSS, JavaScript, Python \\
-Experimental: E-Prime, E-Run, Experiment Builder, Eyelink \\
+Programming: R, JavaScript, Python, Bash \\
+Experimental: OpenSesame, IbexFarm, Eyelink 
+\end{multicols}
+\subsection*{\href{}{Classes that I took}}
 
 
 
