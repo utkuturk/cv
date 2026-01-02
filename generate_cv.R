@@ -779,9 +779,18 @@ clean_md_field <- function(text) {
     }
     text <- as.character(text)
 
-    # \href{url}{text} -> [text](url)
-    # handling nested braces is hard with regex, assuming simple cases
-    text <- gsub("\\\\href\\{([^\\}]*)\\}\\{([^\\}]*)\\}", "[\\2](\\1)", text)
+    # 0. Formatting cleanup (remove size, simple font adjustments)
+    text <- gsub("\\\\scriptsize", "", text)
+    text <- gsub("\\\\huge", "", text)
+    text <- gsub("\\\\large", "", text)
+    text <- gsub("\\\\-", "", text) # Remove soft hyphens
+
+    # 1. Inner tags first (styles)
+    # \textsc{text} -> text
+    text <- gsub("\\\\textsc\\{([^\\}]*)\\}", "\\1", text)
+
+    # \texttt{text} -> `text`
+    text <- gsub("\\\\texttt\\{([^\\}]*)\\}", "`\\1`", text)
 
     # \textbf{text} -> **text**
     text <- gsub("\\\\textbf\\{([^\\}]*)\\}", "**\\1**", text)
@@ -790,20 +799,18 @@ clean_md_field <- function(text) {
     text <- gsub("\\\\textit\\{([^\\}]*)\\}", "*\\1*", text)
     text <- gsub("\\\\emph\\{([^\\}]*)\\}", "*\\1*", text)
 
-    # \textsc{text} -> text (Markdown doesn't support small caps natively)
-    text <- gsub("\\\\textsc\\{([^\\}]*)\\}", "\\1", text)
-
-    # \texttt{text} -> `text`
-    text <- gsub("\\\\texttt\\{([^\\}]*)\\}", "`\\1`", text)
-
-    # \scriptsize, \huge etc -> remove
-    text <- gsub("\\\\scriptsize", "", text)
-    text <- gsub("\\\\huge", "", text)
-    text <- gsub("\\\\large", "", text)
+    # 2. Links (Outer)
+    # \href{url}{text} -> [text](url)
+    text <- gsub("\\\\href\\{([^\\}]*)\\}\\{([^\\}]*)\\}", "[\\2](\\1)", text)
 
     # \LaTeX{} -> LaTeX
     text <- gsub("\\\\LaTeX\\{\\}", "LaTeX", text)
     text <- gsub("\\\\LaTeX", "LaTeX", text)
+
+    # 3. Final Escape Cleanup
+    # Unescape braces \{ \} -> { }
+    text <- gsub("\\\\\\{", "{", text)
+    text <- gsub("\\\\\\}", "}", text)
 
     # Escaped chars
     text <- gsub("\\\\&", "&", text)
@@ -885,7 +892,7 @@ gen_md_pubs <- function(pub_list) {
 
 gen_markdown_cv <- function() {
     pubs <- data$publications
-    md <- "---\nlayout: page\ntitle: CV\npermalink: /cv/\n---\n\n"
+    md <- "---\nlayout: page\ntitle: CV\npermalink: /\n---\n\n"
 
     # Header
     md <- paste0(md, "# Utku Türk\n\n")
@@ -1016,5 +1023,5 @@ gen_markdown_cv <- function() {
 writeLines(content, output_file)
 cat("Generated", output_file, "\n")
 
-writeLines(gen_markdown_cv(), "cv.md")
-cat("Generated cv.md\n")
+writeLines(gen_markdown_cv(), "index.md")
+cat("Generated index.md\n")
