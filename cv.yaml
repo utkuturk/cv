@@ -1,0 +1,857 @@
+name: Utku Turk
+email: utkuturk@umd.edu
+website: utkuturk.com
+github: utkuturk
+twitter: utkuturk
+location: College Park, MD, 20742
+
+education:
+  - institution: "[University of Maryland](https://umd.edu/)"
+    location: College Park, MD
+    year: 2022-present
+    degree: "\\textbf{Ph.D., Linguistics} (advisors: [Colin Phillips](https://www.colinphillips.net/) & [Ellen Lau](https://ellenlau.net/))"
+    details:
+      - "Certificate in NACS (Neuro and Cognitive Sciences)"
+  
+  - institution: "[University of Massachussets](https://www.umass.edu/linguistics/)"
+    location: Amherst, MA, USA
+    year: Fall 2025
+    degree: "Visiting Researcher, Linguistics (hosts: Shota Momma, Faruk Akkuş)"
+    details:
+      - "Area of Study: \\textit{Morphological planning, response bias, and A-bar dependencies in Turkish}"
+
+  - institution: "[Boğaziçi University](https://boun.edu.tr/)"
+    location: Turkey
+    year: 2017-2022
+    degree: "\\textbf{M.A. in [Linguistics](https://linguistics.boun.edu.tr/)} (advisor: [Pavel Logačev](https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en))"
+    details:
+      - "Thesis title: [\\textit{Agreement Attraction in Turkish}](https://utkuturk.com/ma/)"
+      - "GPA: 4.00/4.00"
+
+  - institution: "[Masaryk University](https://www.muni.cz/en)"
+    location: Czechia
+    year: Spring 2020
+    degree: "Visiting Researcher, Linguistics (host: [Pavel Caha](https://www.muni.cz/en/people/53172-pavel-caha) & Michal Starke)"
+    details:
+      - "Area of Study: \\textit{case containment in Turkish, adjectival structure}"
+
+  - institution: "[Boğaziçi University](https://boun.edu.tr/)"
+    location: Turkey
+    year: 2012-2017
+    degree: "\\textbf{B.A. in [Translation Studies](https://transint.boun.edu.tr/)}"
+    details:
+      - "Minor \\textit{in Spanish-Turkish translation}"
+      - "Exchange student \\textit{in UCLA Linguistics}"
+      - "GPA: 3.76/4.00; High Honor Graduate"
+
+projects:
+  - title: The Role of Working Memory in Sentence Processing
+    url: https://arastirma.boun.edu.tr/tr/role-working-memory-sentence-processing
+    period: 2017-2021
+    role: Researcher
+    funding: "Boğaziçi University (BAP), grant code: 17B12SUP1"
+    pi: "[Asst. Prof. Pavel Logačev](https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en)"
+    description: "Analysis of behavioral data from psycholinguistic experiments testing topics including response bias, grammaticality illusions, shallow processing, discourse effects. (R, Stan, brms, tidyverse, IbexFarm, git, OpenSesame, EyeLink)"
+
+  - title: Deep Learning Based Turkish Dependency Parsing
+    url: https://tabilab.cmpe.boun.edu.tr/projects.html#past-dependency-parser
+    period: 2018-2019
+    role: Researcher
+    funding: "The Scientific and Technological Research Council of Turkey, grant code: 117E97"
+    pi: "[Assoc. Prof. Arzucan Özgür](https://www.cmpe.boun.edu.tr/~ozgur/)"
+    partners: "[Prof. Tunga Güngör](https://www.cmpe.boun.edu.tr/~gungort/) and [Prof. Balkız Öztürk](https://linguistics.boun.edu.tr/balkiz-ozturk-basaran)"
+    description: "Lead annotator in Universal Dependencies project for Turkish. Creating annotation guidelines for Turkish in the Universal Dependencies framework. (Python, CoNLL-U, udpipe, git, bash, Dependency Parsing, LSTMs, transformer)"
+
+  - title: "Greek and Turkish in Contact: Morphosyntactic Change and its Sociological Causation"
+    url: https://arastirma.boun.edu.tr/tr/proje/greek-and-turkish-contact-morphosyntactic-change-and-its-sociolinguistic-causation
+    period: 2020-2022
+    role: Researcher
+    funding: "European Commission, grant code: 120C061"
+    pi: "[Prof. Aslı Göksel](https://linguistics.boun.edu.tr/asli-goksel) & [Dr. Konstantinos Sampanis](https://scholar.google.com/citations?user=tUP5rxQAAAAJ&hl=de)"
+    cooperator: "[Asst. Prof. Metin Bağrıaçık](https://linguistics.boun.edu.tr/tr/metin-bagriacik)"
+    description: "Statistical analysis of the corpus and geospatial data. Sociolinguistic annotation of the first Cappadocian Greek treebank. (CoNLL-U, udpipe, tidyverse, geospatial analysis)"
+
+teaching:
+  - institution: University of Oxford
+    location: UK
+    items:
+      - role: Workshop Instructor
+        department: "Department of Linguistics"
+        year: 2024
+        courses:
+          - name: "Workshop on Sentence Production and Employing Production Experiments"
+            term: "Summer '24"
+            note: "Co-organized with Allison Dods, Rosa Lee, Colin Phillips"
+
+  - institution: University of Maryland
+    location: College Park, MD
+    items:
+      - role: Graduate Assistant
+        department: "Department of Linguistics"
+        year: "2022-present"
+        courses:
+          - term: "Spring '25"
+            code: "Ling 200"
+            name: "Introduction to Linguistics"
+          - term: "Fall '24"
+            code: "Ling 440"
+            name: "Grammars & Cognition"
+          - term: "Spring '24"
+            code: "Arhu 299"
+            name: "Machine Learning in Language and Art"
+            syllabus: "https://utkuturk.com/files/syli/299_s24.pdf"
+          - term: "Fall '23"
+            code: "Ling 240"
+            name: "Language & Mind"
+            syllabus: "https://utkuturk.com/files/syli/240_f23.pdf"
+      
+      - role: Experimental Instructor
+        department: "Department of Linguistics"
+        year: 2024
+        courses:
+          - term: "Fall '24"
+            code: "Ling 640"
+            name: "Psycholinguistics"
+            note: "Instructed 2 weeks on experimental methods and statistical analysis"
+
+  - institution: Boğaziçi University
+    location: Turkey
+    items:
+      - role: Teaching Assistant
+        department: "Department of Linguistics"
+        year: "2018-2022"
+        courses:
+          - term: "Spring '22"
+            code: "Ling 360"
+            name: "Computational Methods in Linguistics"
+            syllabus: "https://utkuturk.com/files/syli/360_s22.pdf"
+          - term: "Spring '22"
+            code: "Ling 314"
+            name: "Syntax & Semantics of Turkish"
+            syllabus: "https://utkuturk.com/files/syli/314_s22.pdf"
+          - term: "Fall '21"
+            code: "Ling 101"
+            name: "Intro to Linguistics"
+            syllabus: "https://utkuturk.com/files/syli/101_f21.pdf"
+          - term: "Fall '21"
+            code: "Ling 203"
+            name: "Syntax"
+            syllabus: "https://utkuturk.com/files/syli/203_f21.pdf"
+          - term: "Spring '21"
+            code: "Ling 101"
+            name: "Intro to Linguistics"
+            syllabus: "https://utkuturk.com/files/syli/101_s21.pdf"
+          - term: "Spring '21"
+            code: "Ling 314"
+            name: "Syntax & Semantics of Turkish"
+            syllabus: "https://utkuturk.com/files/syli/314_s21.pdf"
+          - term: "Spring '21"
+            code: "Ling 484"
+            name: "Comp. Methods in Linguistics"
+            syllabus: "https://utkuturk.com/files/syli/484_s21.pdf"
+          - term: "Fall '20"
+            code: "Ling 101"
+            name: "Intro to Linguistics"
+            syllabus: "https://utkuturk.com/files/syli/101_f20.pdf"
+          - term: "Fall '20"
+            code: "Ling 203"
+            name: "Syntax"
+            syllabus: "https://utkuturk.com/files/syli/203_f20.pdf"
+          - term: "Fall '20"
+            code: "Ling 411"
+            name: "Linguistic Methodology"
+            syllabus: "https://utkuturk.com/files/syli/411_f20.pdf"
+          - term: "Spring '20"
+            code: "Ling 202"
+            name: "Morphology"
+            syllabus: "https://utkuturk.com/files/syli/202_s20.pdf"
+          - term: "Spring '20"
+            code: "Ling 206"
+            name: "Language Typology"
+          - term: "Fall '19"
+            code: "Ling 101"
+            name: "Intro to Linguistics"
+            syllabus: "https://utkuturk.com/files/syli/101_f19.pdf"
+          - term: "Fall '19"
+            code: "Ling 313"
+            name: "Phonology & Morphology of Turkish"
+            syllabus: "https://utkuturk.com/files/syli/313_f19.pdf"
+          - term: "Spring '19"
+            code: "Ling 101"
+            name: "Intro to Linguistics"
+            syllabus: "https://utkuturk.com/files/syli/101_s19.pdf"
+          - term: "Spring '19"
+            code: "Ling 314"
+            name: "Syntax & Semantics of Turkish"
+            syllabus: "https://utkuturk.com/files/syli/314_s19.pdf"
+          - term: "Fall '18"
+            code: "Ling 313"
+            name: "Phonology & Morphology of Turkish"
+            syllabus: "https://utkuturk.com/files/syli/313_f18.pdf"
+          - term: "Spring '18"
+            code: "Ling 101"
+            name: "Intro to Linguistics"
+            syllabus: "https://utkuturk.com/files/syli/101_s18.pdf"
+          - term: "Spring '18"
+            code: "Ling 102"
+            name: "Intro to Linguistics II"
+            syllabus: "https://utkuturk.com/files/syli/102_s18.pdf"
+          - term: "Spring '12"
+            code: "Ling 102"
+            name: "Intro to Linguistics II"
+
+      - role: Class Assistant
+        department: "Turkish Language and Culture Program"
+        year: "2018-2019"
+        courses:
+          - term: "Summer 2019"
+            code: "S25"
+            name: "Upper Intermediate Turkish Classes"
+          - term: "Summer 2018"
+            code: "S30"
+            name: "Advanced Turkish Classes"
+publications:
+  articles:
+  - title: '(In)sensitivity to surface-level heuristics: A case from Turkish verbal
+      attractors'
+    author: T{\"u}rk, Utku
+    year: '2026'
+    doi: ~
+    url: http://psyarxiv.com/dwh8v
+    container: Submitted to Cognition
+    links:
+      - name: paper
+        url: http://psyarxiv.com/dwh8v
+  - title: 'Non-visually-derived mental objects tax ‘visual’ pointers'
+    author: Xu, X. and T{\"u}rk, Utku and Dods, A. and Tian, X. and Lau, E.
+    year: '2025'
+    doi: 10.1101/2025.05.02.651748v1
+    url: https://www.biorxiv.org/content/10.1101/2025.05.02.651748v1
+    links:
+      - name: biorxiv
+        url: https://www.biorxiv.org/content/10.1101/2025.05.02.651748v1
+    container: (submitted). [preprint]
+  - title: 'Agreement attraction in {T}urkish: The case of genitive attractors'
+    author: T{\"u}rk, Utku and Loga{\v{c}}ev, Pavel
+    year: '2024'
+    doi: 10.1080/23273798.2024.2324766
+    url: ~
+    links:
+      - name: doi
+        url: https://doi.org/10.1080/23273798.2024.2324766
+    container: Language, Cognition and Neuroscience
+  - title: 'Resources for {T}urkish dependency parsing: Introducing the {BOUN} Treebank
+      and the {BoAT} annotation tool'
+    author: T{\"u}rk, Utku and Atmaca, Furkan and {\"O}zate{\c{s}}, {\c{S}}aziye Bet{\"u}l
+      and Berk, G{\"o}zde and Bedir, Seyyit Talha and K{\"o}ksal, Abdullatif and {\"O}zt{\"u}rk
+      Ba{\c{s}}aran, Balk{\i}z and G{\"u}ng{\"o}r, Tunga and {\"O}zg{\"u}r, Arzucan
+    year: '2022'
+    doi: 10.1007/s10579-021-09558-0
+    url: ~
+    links:
+      - name: doi
+        url: https://doi.org/10.1007/s10579-021-09558-0
+    container: Language Resources and Evaluation
+  chapters:
+  - title: Controlling morphosyntactic competition through phonology
+    author: T{\"u}rk, Utku
+    year: '2025'
+    doi: ~
+    url: ~
+    container: 'Nanosyntax and the Lexicalization Algorithm (pp. 411–440). Eds. P. Caha, K. De Clercq, & G. Vanden Wyngaerd. Oxford University Press'
+  - title: The phonological nature of the {T}urkish front glide
+    author: Canalis, Stefano and {\"O}zdemir, Semra and T{\"u}rk, Utku and Tun{\c{c}}er,
+      {\"U}mit Can
+    year: '2024'
+    doi: ~
+    url: ~
+    container: 'Selected Essays on Turkish Linguistics: The Anadolu Meeting'
+  proceedings:
+  - title: 'Towards a theory of scope rigidity: A case of focus sensitive question particles'
+    author: T{\"u}rk, Utku and Hirsch, Aron
+    year: 2025
+    doi: ~
+    url: ~
+    container: Proceedings of TU+10 (10th Workshop on Turkic and Languages in Contact
+      with Turkic)
+  - title: Syntactic alternatives in {T}urkish polar questions
+    author: T{\"u}rk, Utku and Hirsch, Aron
+    year: '2025'
+    doi: ~
+    url: ~
+    container: Proceedings of the 49th Penn Linguistics Conference (PLC 49)
+  - title: Hypothetical comparison in {T}urkish
+    author: T{\"u}rk, Utku and Demirok, {\"O}mer
+    year: '2021'
+    doi: 10.3765/ptu.v6i1.5054
+    url: ~
+    links:
+      - name: doi
+        url: https://doi.org/10.3765/ptu.v6i1.5054
+    container: Proceedings of the 6th Workshop on Turkic and Languages in Contact
+      with Turkic
+  - title: Nanosyntactic analysis of {T}urkish cases
+    author: T{\"u}rk, Utku and Caha, Pavel
+    year: '2021'
+    doi: ~
+    url: ~
+    container: Proceedings of the 6th Workshop on Turkic and Languages in Contact
+      with Turkic
+  - title: Tackling the augmentative puzzle in {T}urkish
+    author: T{\"u}rk, Utku
+    year: '2020'
+    doi: 10.3765/ptu.v5i1.4771
+    url: ~
+    links:
+      - name: doi
+        url: https://doi.org/10.3765/ptu.v5i1.4771
+    container: Proceedings of the 5th Workshop on Turkic and Languages in Contact
+      with Turkic
+  - title: First steps towards Universal Dependencies for {L}az
+    author: T{\"u}rk, Utku and Bayar, Kaan and {\"O}zercan, Ay{\c{s}}eg{\"u}l Dilara
+      and {\"O}zt{\"u}rk, G{\"o}rkem Yi{\u{g}}it and {\"O}zate{\c{s}}, {\c{S}}aziye
+      Bet{\"u}l
+    year: '2020'
+    doi: ~
+    url: https://aclanthology.org/2020.udw-1.21/
+    links:
+      - name: paper
+        url: https://aclanthology.org/2020.udw-1.21/
+    container: Proceedings of the Fourth Workshop on Universal Dependencies (UDW 2020)
+  - title: 'Turkish treebanking: Unifying and constructing efforts'
+    author: T{\"u}rk, Utku and Atmaca, Furkan and {\"O}zate{\c{s}}, {\c{S}}aziye Bet{\"u}l
+      and K{\"o}ksal, Abdullatif and {\"O}zt{\"u}rk Ba{\c{s}}aran, Balk{\i}z and G{\"u}ng{\"o}r,
+      Tunga and {\"O}zg{\"u}r, Arzucan
+    year: '2019'
+    doi: ~
+    url: https://www.aclweb.org/anthology/W19-4019/
+    links:
+      - name: paper
+        url: https://www.aclweb.org/anthology/W19-4019/
+    container: Proceedings of the 13th Linguistic Annotation Workshop
+  - title: Improving the annotations in the {T}urkish Universal Dependency Treebank
+    author: T{\"u}rk, Utku and Atmaca, Furkan and {\"O}zate{\c{s}}, {\c{S}}aziye Bet{\"u}l
+      and {\"O}zt{\"u}rk Ba{\c{s}}aran, Balk{\i}z and G{\"u}ng{\"o}r, Tunga and {\"O}zg{\"u}r,
+      Arzucan
+    year: '2019'
+    doi: ~
+    url: https://www.aclweb.org/anthology/W19-8013
+    links:
+      - name: paper
+        url: https://www.aclweb.org/anthology/W19-8013
+    container: Proceedings of the Third Workshop on Universal Dependencies (UDW, SyntaxFest
+      2019)
+  in_prep:
+  - title: 'Review of "Linguistic Illusions: A Case Study on Agreement Attraction" by Dan Parker'
+    author: T{\"u}rk, Utku
+    year: 'In preparation'
+    doi: ~
+    url: ~
+    container: For Linguist List
+  - title: Response bias in {T}urkish agreement attraction
+    author: T{\"u}rk, Utku
+    year: 'In preparation'
+    doi: ~
+    url: ~
+    links:
+      - name: repo
+        url: https://github.com/utkuturk/response_bias_turkish
+  - title: 'Agreement attraction under uncertainty: A case of register manipulation'
+    author: T{\"u}rk, Utku
+    year: 'In preparation'
+    doi: ~
+    url: https://github.com/utkuturk/attraction_honorific_turkish
+    links:
+      - name: repo
+        url: https://github.com/utkuturk/attraction_honorific_turkish
+    container: ~
+  - title: Tracking structural cues or relying on probabilistic inference in {T}urkish agreement?
+    author: Bakay, {\"O}zge and T{\"u}rk, Utku and Demiray, Duygu and Dillon, Brian
+    year: 'In preparation'
+    doi: ~
+    url: https://github.com/utkuturk/nom-vs-gen-attraction
+    links:
+      - name: repo
+        url: https://github.com/utkuturk/nom-vs-gen-attraction
+    container: ~
+  - title: Effects of frequency in non-local derivational composionality in Turkish
+    author: Neu, Eva, T{\"u}rk, Utku and Bakay, {\"O}zge
+    year: 'In preparation'
+    doi: ~
+    url: https://github.com/utkuturk/freq_derivational_sa
+    links:
+      - name: repo
+        url: https://github.com/utkuturk/freq_derivational_sa
+    container: ~
+  - title: Quantifying the cross-linguistics effects of syncretism on agreement attraction
+    author: T{\"u}rk, Utku
+    year: 'In preparation'
+    doi: ~
+    url: https://github.com/utkuturk/syncretism_crossling_llm
+    links:
+      - name: repo
+        url: https://github.com/utkuturk/syncretism_crossling_llm
+    container: ~
+  talks:
+  - title: Turkish register manipulation eliminates grammaticality asymmetry in attraction
+      and challenges retrieval based accounts
+    author: T{\"u}rk, Utku
+    year: 2025
+    doi: ~
+    url: ~
+    links:
+    - name: abstract
+      url: https://www.utkuturk.com/files/abstracts/TurkHSP2025.pdf
+    container: Talk presented at the 38th Annual Conference on Human Sentence Processing
+      (HSP 2025), University of Maryland, College Park, MD
+  - title: Syntactic alternatives in {T}urkish polar questions
+    author: T{\"u}rk, Utku and Hirsch, Aron
+    year: 2025
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/TurkHirschPLC2025.pdf
+    container: Talk presented at PLC 49 (40th Penn Linguistics Circle), University
+      of Pennsylvania, Philadelphia, PA
+  - title: Register modulates grammaticality asymmetry in {T}urkish agreement attraction
+    author: T{\"u}rk, Utku
+    year: 2025
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/TurkTU2025.pdf
+    container: Talk presented at TU+10 (10th Workshop on Turkic and Languages in Contact
+      with Turkic), University of Southern California, Los Angeles, CA
+  - title: Superiority effects with adjuncts in {T}urkish
+    author: Lewis, Sadira and T{\"u}rk, Utku
+    year: 2025
+    doi: ~
+    url: ~
+    links:
+      - name: slides
+        url: https://utkuturk.com/files/slides/LewisTurkLSA.pdf
+    container: Talk presented at the Linguistic Society of America Annual Meeting
+      (LSA 2025), Philadelphia, PA
+  - title: 'When do we plan agreement in our speech: Case from agreement attraction
+      in unaccusatives'
+    author: T{\"u}rk, Utku and Lau, Ellen and Phillips, Colin
+    year: 2024
+    doi: ~
+    url: ~
+    links:
+      - name: slides
+        url: https://utkuturk.com/files/abstracts/TurkEtAl-puzzles.pdf
+    container: Talk presented at Puzzles of Agreement
+  - title: Novel analysis of response bias challenges representational accounts in
+      attraction
+    author: T{\"u}rk, Utku and Loga{\v{c}}ev, Pavel
+    year: 2023
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/hsp-2023-bias.pdf
+      - name: slides
+        url: https://utkuturk.com/files/slides/hsp2023.pdf
+    container: Talk presented at Human Sentence Processing (HSP 2023), University
+      of Pittsburgh, Pittsburgh, PA
+  - title: 'Defining borrowing hierarchies in the light of sociolinguistic and geodemographic
+      causation: Contact-induced morphosyntactic change in Asia Minor Greek'
+    author: Sampanis, Konstantinos and T{\"u}rk, Utku and G{\"u}ls{\"u}n, Umut
+    year: 2021
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/sle2021.pdf
+    container: Talk presented at SLE 54 (Annual Meeting of the Societas Linguistica
+      Europaea); online
+  - title: 'The more the merrier: A new dependency treebank for {T}urkish'
+    author: T{\"u}rk, Utku and Atmaca, Furkan and {\"O}zate{\c{s}}, {\c{S}}aziye Bet{\"u}l
+      and Berk, G{\"o}zde and Bedir, Talha and K{\"o}ksal, Abdullatif and {\"O}zt{\"u}rk
+      Ba{\c{s}}aran, Balk{\i}z and G{\"u}ng{\"o}r, Tunga and {\"O}zg{\"u}r, Arzucan
+    year: 2020
+    doi: ~
+    url: ~
+    container: Talk presented at ICTL 20 (International Conference on Turkish Linguistics);
+      online (Eski{\c{s}}ehir, Turkey)
+  - title: The phonological nature of the {T}urkish front glide
+    author: Canalis, Stefano and {\"O}zdemir, Semra and T{\"u}rk, Utku and Tun{\c{c}}er,
+      {\"U}mit Can
+    year: 2020
+    doi: ~
+    url: ~
+    container: Talk presented at ICTL 20 (International Conference on Turkish Linguistics);
+      online (Eski{\c{s}}ehir, Turkey)
+  - title: Hypothetical comparison in {T}urkish
+    author: T{\"u}rk, Utku and Demirok, {\"O}mer
+    year: 2021
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/hypocomparison2021.pdf
+      - name: handout
+        url: https://utkuturk.com/files/handouts/hypocomparison2021.pdf
+      - name: paper
+        url: https://utkuturk.com/files/papers/TurkDemirok2021.pdf
+    container: Also presented at TU+6 (online, University of Toronto) on 2021-02-19.
+  - title: 'When vowel harmony has a say in morpho-syntax: A case from suspended affixation'
+    author: T{\"u}rk, Utku
+    year: 2021
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/vh_suspaffix.pdf
+      - name: slides
+        url: https://utkuturk.com/files/slides/vh_suspaffix.pdf
+    container: Talk presented at ConSOLE 29, University of Leiden; online
+  - title: When glides are obstruents, or {T}urkish [j]
+    author: Canalis, Stefano and {\"O}zdemir, Semra and T{\"u}rk, Utku and Tun{\c{c}}er,
+      {\"U}mit Can
+    year: 2021
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/glide2021.pdf
+      - name: slides
+        url: https://utkuturk.com/files/slides/glidesocp.pdf
+    container: Talk presented at the 18th Old World Conference in Phonology (OCP 18);
+      online (Ibiza)
+  - title: The role of shallow processing in agreement attraction
+    author: T{\"u}rk, Utku and Loga{\v{c}}ev, Pavel
+    year: 2020
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/le2020_shallow.pdf
+      - name: slides
+        url: https://utkuturk.com/files/slides/LE2020.pdf
+    container: Talk presented at Linguistic Evidence 2020, Universit{\"a}t T{\"u}bingen,
+      Germany
+  - title: Improving the annotations in the {T}urkish Universal Dependency Treebank
+    author: T{\"u}rk, Utku and Atmaca, Furkan and {\"O}zate{\c{s}}, {\c{S}}aziye Bet{\"u}l
+      and {\"O}zt{\"u}rk Ba{\c{s}}aran, Balk{\i}z and G{\"u}ng{\"o}r, Tunga and {\"O}zg{\"u}r,
+      Arzucan
+    year: 2019
+    doi: ~
+    url: ~
+    links:
+      - name: paper
+        url: https://utkuturk.com/files/papers/TurkEtAl2019a.pdf
+      - name: slides
+        url: https://utkuturk.com/files/slides/syntaxfest2019.pdf
+    container: Also presented at the 33rd National Linguistics Conference (Mersin
+      University, Turkey) 2019-05-09/2019-05-10.
+  - title: Decomposing {T}urkish augmentatives
+    author: T{\"u}rk, Utku
+    year: 2019
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/wossp.pdf
+      - name: slides
+        url: https://utkuturk.com/files/slides/wossp.pdf
+    container: Talk presented at the 16th Workshop on Syntax, Semantics, and Phonology,
+      Universidad Complutense de Madrid, Spain
+  - title: Is accusative case really the case?
+    author: T{\"u}rk, Utku
+    year: 2019
+    doi: ~
+    url: ~
+    links:
+      - name: slides
+        url: https://utkuturk.com/files/slides/accusative.pdf
+    container: Talk presented at the 13th Linguistics Student Conference, Ankara University,
+      Turkey
+  - title: Obligatory adjuncts within {T}urkish impersonals
+    author: T{\"u}rk, Utku and Dikmen, Furkan
+    year: 2019
+    doi: ~
+    url: ~
+    links:
+      - name: slides
+        url: https://utkuturk.com/files/slides/adjuncts.pdf
+    container: Talk presented at the 13th Linguistics Student Conference, Ankara University,
+      Turkey
+  - title: Effects of vowel characteristics in suspended affixation with root allomorphy
+    author: T{\"u}rk, Utku
+    year: 2020
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/amlap-2021-bias.pdf
+      - name: slides
+        url: https://utkuturk.com/files/slides/AMLAP_2021-bias.pdf
+    container: Also listed as a short talk in the CV.
+  - title: Response bias manipulation in {T}urkish agreement attraction
+    author: T{\"u}rk, Utku and Loga{\v{c}}ev, Pavel
+    year: 2020
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/amlap-2021-vh.pdf
+      - name: slides
+        url: https://utkuturk.com/files/slides/AMLAP_2021-vh.pdf
+    container: Also listed as a short talk in the CV.
+  - title: Timing of agreement in verb planning
+    author: T{\"u}rk, Utku
+    year: 2024
+    doi: ~
+    url: ~
+    container: Talk presented at the UMass/UMD Psycholinguistics Mixer
+  - title: Maybe, kind {NP}s are special?
+    author: T{\"u}rk, Utku
+    year: 2024
+    doi: ~
+    url: ~
+    container: Talk presented at the UMD Psycholinguistics Workshop
+  - title: Hypothetical comparisons
+    author: T{\"u}rk, Utku
+    year: 2022
+    doi: ~
+    url: ~
+    container: ~
+  - title: Sources of bias in psycholinguistic data
+    author: T{\"u}rk, Utku
+    year: 2023
+    doi: ~
+    url: ~
+    links:
+      - name: slides
+        url: https://utkuturk.com/files/slides/LSC_Bias.pdf
+    container: Talk presented at Language Science Lunch Talks, University of Maryland
+      Language Science Center
+  - title: The role of shallow processing in agreement attraction
+    author: T{\"u}rk, Utku and Loga{\v{c}}ev, Pavel
+    year: 2020
+    doi: ~
+    url: ~
+    container: Talk presented at BLC (Bo{\u{g}}azi{\c{c}}i Linguistic Circle)
+  - title: Is accusative case really the case?
+    author: T{\"u}rk, Utku
+    year: 2019
+    doi: ~
+    url: ~
+    container: Talk presented at Bo{\u{g}}azi{\c{c}}i University Student Conference
+      on Theoretical and Experimental Linguistics (BUSCTEL 2019)
+  posters:
+  - title: 'Towards a theory of scope rigidity: A case of focus sensitive question particles'
+    author: T{\"u}rk, Utku and Hirsch, Aron
+    year: 2025
+    doi: ~
+    url: ~
+    container: Poster presented at TU+10 (10th Workshop on Turkic and Languages in
+      Contact with Turkic), University of Southern California, Los Angeles, CA
+  - title: '{T}urkish allows covert scrambling'
+    author: T{\"u}rk, Utku and Hirsch, Aron
+    year: 2025
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/TurkHirschTU2025.pdf
+    container: Poster presented at TU+10 (10th Workshop on Turkic and Languages in
+      Contact with Turkic), University of Southern California, Los Angeles, CA
+  - title: Speech timing evidence on the (in)dependence of root and inflection access
+      in production
+    author: T{\"u}rk, Utku and Phillips, Colin
+    year: 2024
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/hsp-2024-agree.pdf
+    container: Poster presented at Human Sentence Processing (HSP 2024), University
+      of Michigan, Ann Arbor, MI
+  - title: 'Is the octopus regenerating?: Comparing timing effects in sentence recall
+      and picture description tasks'
+    author: Dods, Allison and Macdonald, Allison and T{\"u}rk, Utku and Mancha, Sebasti{\'a}n
+      and Phillips, Colin
+    year: 2024
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/hsp-2024-task.pdf
+    container: Poster presented at Human Sentence Processing (HSP 2024), University
+      of Michigan, Ann Arbor, MI
+  - title: Obviation problem in {T}urkish
+    author: T{\"u}rk, Utku
+    year: 2023
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/slides/obv2023.pdf
+      - name: poster
+        url: https://utkuturk.com/files/slides/tuplus2023.pdf
+    container: Poster presented at TU+8 (8th Workshop on Turkic and Languages in Contact
+      with Turkic), Harvard University, Cambridge, MA
+  - title: Nanosyntactic analysis of {T}urkish cases
+    author: T{\"u}rk, Utku and Caha, Pavel
+    year: 2021
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/nanocase2021.pdf
+      - name: handout
+        url: https://utkuturk.com/files/handouts/nanocase2021.pdf
+      - name: paper
+        url: https://utkuturk.com/files/papers/TurkCaha2021.pdf
+    container: Poster presented at TU+6 (6th Workshop on Turkic and Languages in Contact
+      with Turkic); online (University of Toronto)
+  - title: First steps towards Universal Dependencies for {L}az
+    author: T{\"u}rk, Utku and Bayar, Kaan and {\"O}zercan, Ay{\c{s}}eg{\"u}l Dilara
+      and {\"O}zate{\c{s}}, {\c{S}}aziye Bet{\"u}l
+    year: 2020
+    doi: ~
+    url: ~
+    links:
+      - name: paper
+        url: https://utkuturk.com/files/papers/TurkEtAl2020.pdf
+      - name: poster
+        url: https://utkuturk.com/files/slides/coling.pdf
+    container: Associated short paper in UDW 2020 proceedings.
+  - title: The role of shallow processing in agreement attraction
+    author: T{\"u}rk, Utku and Loga{\v{c}}ev, Pavel
+    year: 2020
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/cuny_shallow.pdf
+      - name: osf
+        url: https://osf.io/x9pv7/
+      - name: poster
+        url: https://utkuturk.com/files/slides/cuny_shallow.pdf
+    container: Poster presented at the 33rd Annual CUNY Conference on Human Sentence
+      Processing; online (Amherst, MA)
+  - title: An investigation into the nature of the {T}urkish glide [j]
+    author: '{\"O}zdemir, Semra and T{\"u}rk, Utku'
+    year: 2020
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/glide2020.pdf
+      - name: poster
+        url: https://utkuturk.com/files/slides/tu_glide.pdf
+    container: Poster presented at TU+5 (5th Workshop on Turkic and Languages in Contact
+      with Turkic), University of Delaware, USA
+  - title: Tackling the augmentative puzzle in {T}urkish
+    author: T{\"u}rk, Utku
+    year: 2020
+    doi: ~
+    url: ~
+    links:
+      - name: abstract
+        url: https://utkuturk.com/files/abstracts/augmentative_tuplus.pdf
+      - name: poster
+        url: https://utkuturk.com/files/slides/aug_poster.pdf
+    container: Poster presented at TU+5 (5th Workshop on Turkic and Languages in Contact
+      with Turkic), University of Delaware, USA
+  - title: 'Turkish treebanking: Unifying and constructing efforts'
+    author: T{\"u}rk, Utku and Atmaca, Furkan and {\"O}zate{\c{s}}, {\c{S}}aziye Bet{\"u}l
+      and K{\"o}ksal, Abdullatif and {\"O}zt{\"u}rk Ba{\c{s}}aran, Balk{\i}z and G{\"u}ng{\"o}r,
+      Tunga and {\"O}zg{\"u}r, Arzucan
+    year: 2019
+    doi: ~
+    url: ~
+    links:
+      - name: paper
+        url: https://utkuturk.com/files/papers/TurkEtAl2019b.pdf
+      - name: poster
+        url: https://utkuturk.com/files/slides/law_poster.pdf
+    container: Associated paper in LAW XIII proceedings.
+  - title: 'Nanosyntax of augmentative in {T}urkish: Interfix {-cI-} analysis'
+    author: T{\"u}rk, Utku
+    year: 2019
+    doi: ~
+    url: ~
+    links:
+      - name: poster
+        url: https://utkuturk.com/files/slides/aug_poster.pdf
+    container: Poster presented at the 4th American International Morphology Meeting
+      (AIMM4), Stony Brook University, NY
+  - title: 'Nanosyntax of augmentative in {T}urkish: Interfix {-cI-} analysis'
+    author: T{\"u}rk, Utku
+    year: 2019
+    doi: ~
+    url: ~
+    container: Poster presented at the 13th Linguistics Student Conference, Ankara
+      University, Turkey
+  tutorials:
+  - title: generating consistent linguistic experiment materials with AI
+    author: T{\"u}rk, Utku
+    year: ~
+    doi: ~
+    url: https://www.utkuturk.com/posts/generate-items/
+    container: ~
+  - title: saving pcibex recordings to s3 with a python lambda
+    author: T{\"u}rk, Utku
+    year: ~
+    doi: ~
+    url: https://www.utkuturk.com/posts/aws-s3-pcibex/
+    container: ~
+  - title: montreal forced aligner workflow for pcibex production experiments
+    author: T{\"u}rk, Utku
+    year: ~
+    doi: ~
+    url: https://www.utkuturk.com/posts/mfa/
+    container: ~
+
+interests: "morphological planning in sentence production, processing of case, formal models of response bias, typological variability of morphophonology and algorithmic models of linearization, adjectival morphology and degree semantics, documenting un(der)represented languages"
+
+skills:
+  languages:
+    - "Turkish: native"
+    - "English: proficient"
+    - "Spanish: proficient in reading"
+  tools:
+    - "R & Stan & \\LaTeX{} & Python & JS"
+    - "OpenSesame & IbexFarm"
+
+grants:
+  - "LSC Mini-grant (2500 USD), University of Maryland, College Park (2025)"
+  - "ARHU Summer Fellowship (1500 USD), University of Maryland, College Park (2023 & 2024)"
+  - "\\href{https://gradschool.umd.edu/funding/student-fellowships-awards/flagship-fellowship}{Flagship Fellowship (60000 USD)}, University of Maryland, College Park. (2022 - 2027)"
+  - "Travel Grant for DGfs Summer School - XPrag.de Summer 2019."
+  - "1.5 year research grant by \\href{https://www.tubitak.gov.tr/en/}{The Scientific and Technological Research Council of Turkey} for Deep Learning Based Turkish Dependency Parsing project."
+  - "Faculty of Arts and Sciences Conference Travel Grant, Boğaziçi University. Spring 2019."
+  - "5 year grant. Merit-based Government Funding for Higher Education, only given to top 100 students (2012 -- 2017)"
+
+service:
+  - group: Reviewing
+    items:
+      - "\\emph{Journal Article Reviewer}, Journal of Memory and Language, Glossa Linguistics, Glossa Psycholinguistics"
+      - "\\emph{Reviewer}, Advances in Iranian Linguistics III"
+      - "\\emph{Software Reviewer}, rOpenSci, pangoling R package. \\href{https://github.com/ropensci/software-review/issues/575#issuecomment-1566746683}{review available here.}"
+      - "\\emph{Reviewer}, Computational Psycholinguistic Meeting 2025"
+      - "\\emph{Reviewer}, DM meets Nano 2025"
+      - "\\emph{Proceedings reviewer}, 5th/6th/11th Workshop on Turkic and Languages in Contact with Turkish. \\href{https://journals.linguisticsociety.org/proceedings/index.php/tu/issue/archive}{LSA Archive}."
+  - group: Conference Service
+    items:
+      - "\\emph{Organization Committee}, MayFest Production 2026"
+      - "\\emph{Organization Committee}, Human Sentence Processing (HSP) Conference (2025)"
+      - "\\emph{Organization Committee}, MayFest Constraints on Meaning 2025"
+      - "\\emph{Conference chair}, Student Conference on Linguistics, Istanbul, Turkey. \\href{http://scol.boun.edu.tr/scol22}{\\textsc{scol 2022}}"
+      - "\\emph{Conference chair}, \\href{https://busctel.boun.edu.tr}{\\textsc{Busctel 2020}: Boğaziçi University Student Conference in Theoretical and Experimental Linguistics}. Department of Linguistics, Boğaziçi University"
+      - "\\emph{Co\\-/organizer and Reviewer}, \\href{https://busctel19.weebly.com}{\\textsc{Busctel 2019}}"
+      - "\\emph{Co\\-/organizer and Reviewer}, \\href{https://busctel18.weebly.com}{\\textsc{Busctel 2018}}"
+  - group: Administrative work
+    items:
+      - "\\emph{Senator}, University of Maryland \\\\(2025 - \\textit{ongoing})"
+      - "\\emph{Organizer}, B\\texttt{\\scriptsize\\{ehavioral, aby, rain, it\\}}Ling Workshop, University of Maryland Linguistics \\\\(2024 - \\textit{ongoing})"
+      - "\\emph{Graduate Student Representative}, University of Maryland Linguistics (2024-2025)"
+      - "\\emph{Board Member}, University of Maryland Language Science Center Graduate Student Board. \\\\ (2023 - 2025)"
+      - "\\emph{Committee Member}, University of Maryland Linguistics Colloquium Committee. \\\\ (2023 - 2025)"
