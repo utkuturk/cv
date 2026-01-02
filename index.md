@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-permalink: /cv/
+permalink: /
 ---
 
 # Utku Türk
@@ -177,15 +177,15 @@ Statistical analysis of the corpus and geospatial data. Sociolinguistic annotati
 - *Organization Committee*, MayFest Production 2026
 - *Organization Committee*, Human Sentence Processing (HSP) Conference (2025)
 - *Organization Committee*, MayFest Constraints on Meaning 2025
-- *Conference chair*, Student Conference on Linguistics, Istanbul, Turkey. \href{http://scol.boun.edu.tr/scol22}{scol 2022}
-- *Conference chair*, \href{https://busctel.boun.edu.tr}{Busctel 2020: Boğaziçi University Student Conference in Theoretical and Experimental Linguistics}. Department of Linguistics, Boğaziçi University
-- \emph{Co\-/organizer and Reviewer}, \href{https://busctel19.weebly.com}{Busctel 2019}
-- \emph{Co\-/organizer and Reviewer}, \href{https://busctel18.weebly.com}{Busctel 2018}
+- *Conference chair*, Student Conference on Linguistics, Istanbul, Turkey. [scol 2022](http://scol.boun.edu.tr/scol22)
+- *Conference chair*, [Busctel 2020: Boğaziçi University Student Conference in Theoretical and Experimental Linguistics](https://busctel.boun.edu.tr). Department of Linguistics, Boğaziçi University
+- *Co/organizer and Reviewer*, [Busctel 2019](https://busctel19.weebly.com)
+- *Co/organizer and Reviewer*, [Busctel 2018](https://busctel18.weebly.com)
 
 ### Administrative work
 
 - *Senator*, University of Maryland  (2025 - *ongoing*)
-- *Organizer*, B\texttt{\{ehavioral, aby, rain, it\}}Ling Workshop, University of Maryland Linguistics  (2024 - *ongoing*)
+- *Organizer*, B\texttt{{ehavioral, aby, rain, it}}Ling Workshop, University of Maryland Linguistics  (2024 - *ongoing*)
 - *Graduate Student Representative*, University of Maryland Linguistics (2024-2025)
 - *Board Member*, University of Maryland Language Science Center Graduate Student Board.   (2023 - 2025)
 - *Committee Member*, University of Maryland Linguistics Colloquium Committee.   (2023 - 2025)
